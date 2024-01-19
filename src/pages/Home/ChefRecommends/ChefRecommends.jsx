@@ -1,5 +1,7 @@
+
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import cardImg1 from './../../../assets/home/slide1.jpg'
+
 const ChefRecommends = () => {
     return (
         <section>

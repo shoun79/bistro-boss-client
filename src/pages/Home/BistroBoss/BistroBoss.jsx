@@ -1,7 +1,7 @@
 import chefService from './../../../assets/home/chef-service.jpg'
 const BistroBoss = () => {
     return (
-        <div className="hero min-h-[500px] bg-fixed" style={{ backgroundImage: `url(${chefService})` }}>
+        <div className="hero min-h-[500px] bg-fixed" style={{ backgroundImage: `url("${chefService}")` }}>
 
             <div className="hero-content text-center text-neutral-content bg-white py-10 md:mx-20">
                 <div className=" text-black">

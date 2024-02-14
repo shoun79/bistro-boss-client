@@ -1,6 +1,7 @@
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import './Featured.css'
 import FeaturedImg from './../../../assets/home/featured.jpg'
+import { Link } from "react-router-dom";
 const Featured = () => {
     const today = new Date();
     const month = today.getMonth() + 1;
@@ -20,7 +21,9 @@ const Featured = () => {
                     <p>{`${date}/${month}/${year}`}</p>
                     <p>WHERE CAN I GET SOME?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.</p>
-                    <button className="btn btn-outline border-0 border-b-4 mt-2">Read More</button>
+                    <button className="btn btn-outline border-0 border-b-4 mt-2">
+                        <Link to='/menu'>Read More</Link>
+                    </button>
 
                 </div>
             </div>
